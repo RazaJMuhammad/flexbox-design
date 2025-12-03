@@ -41,7 +41,7 @@ ul a {
 
 .hero {
   display: flex;
-  gap: 10px;
+  gap: 100px;
 }
 
 h3 {
@@ -53,12 +53,31 @@ h3 {
 
 .left-hero-text {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  gap: 0px;
+
+  justify-content: space-between;
 }
 
 .right-hero-content {
   background-color: #e5e7eb;
-  height: 200px;
-  width: 600px;
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.hero-sub-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.card-button {
+  max-width: fit-content;
+  padding: 8px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #3882f6;
+}
+
+.
