@@ -80,4 +80,47 @@ h3 {
   background-color: #3882f6;
 }
 
-.
+.information-header {
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+.information-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  padding-bottom: 2px;
+}
+
+.square {
+  width: 150px; /* Set the width of the square */
+  height: 150px; /* Set the height of the square (same as width for a square) */
+  background-color: white; /* Set the background color to white */
+  border: 5px solid #3882f6; /* Set a 5px solid blue border for the "sides" */
+  border-radius: 20px;
+}
+
+.information-container {
+  display: flex;
+  gap: 16px;
+  padding: 48px;
+  justify-content: center;
+}
+
+.info {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-text{
+  text-align: center;
+  text-wrap: wrap;
+  flex: 1;
+  padding-top: 18px;
+}
