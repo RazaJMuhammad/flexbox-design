@@ -118,9 +118,35 @@ h3 {
   align-items: center;
 }
 
-.info-text{
+.info-text {
   text-align: center;
   text-wrap: wrap;
   flex: 1;
   padding-top: 18px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  padding: 0;
+}
+
+.quote {
+  max-width: 57%;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 800;
 }
