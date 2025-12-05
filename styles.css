@@ -111,7 +111,7 @@ h3 {
 }
 
 .info {
-  max-width: 200px;
+  max-width: 185px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -120,8 +120,6 @@ h3 {
 
 .info-text {
   text-align: center;
-  text-wrap: wrap;
-  flex: 1;
   padding-top: 18px;
 }
 
@@ -201,4 +199,13 @@ h3 {
   border-style: solid;
   height: fit-content;
   cursor: pointer;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  color: #e5e7eb;
 }
